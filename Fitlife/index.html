@@ -4,63 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-dark bg-dark ">
         <div class="container-fluid">
-            <a class="navbar-brand fs-3" href="#">FitLife</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">FitLife</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./Imagens/Logo.png" alt="Logo" width="100" height="79"
+                    class="d-inline-block align-text-top rounded-3 mx-3"><a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">FitLife</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./servicos.html">Serviços</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contato.html">Contato</a>
+                                </li>
+
                             </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search"
+                                    aria-label="Search" />
+                                <button class="btn btn-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
         </div>
     </nav>
-    <br><br><br><br>
-    <main class="bg-dark">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"
-            style="width: 60%; margin: auto;">
+    
+  
+    <main class="bg-dark mt-lg-1">
+        <div id="carouselExampleAutoplaying" class=" mt-2 carousel slide" data-bs-ride="carousel"
+            style="width: 70%; margin:auto;">
             <div class="carousel-inner rounded">
                 <div class="carousel-item active">
                     <img src="https://blog.flowing.com.br/wp-content/uploads/2024/04/images.jpg" class="d-block w-100"
@@ -87,13 +81,14 @@
             </button>
         </div>
 
-        <div class="card text-center">
-            <div class="card-header fs-1 fw-bold text-center">
+        <div class="card text-center bg bg-dark">
+            <div class=" bg bg-secondary card-header mt-5 fs-1 fw-bold text-center text-warning">
                 FitLife
             </div>
             <div class="card-body my-5 mx-5">
-                <h5 class="card-title p-1">A academia que realmente pensa em você!</h5>
-                <p class="card-text p-1">Na FITLIFE, acreditamos que cuidar da saúde é o primeiro passo para uma vida mais
+                <h5 class="card-title p-1 fw-bold text-danger">A academia que realmente pensa em você!</h5>
+                <p class="card-text p-4 mt-2 fs-5 text-white">Na FitLife, acreditamos que cuidar da saúde é o primeiro
+                    passo para uma vida mais
                     equilibrada e cheia de energia. Nossa academia foi criada para oferecer um ambiente moderno,
                     acolhedor e motivador, onde pessoas de todas as idades e níveis de condicionamento físico podem
                     alcançar seus objetivos.
@@ -104,16 +99,18 @@
                     vida.
 
                     Seja para ganhar massa muscular, perder peso, melhorar o condicionamento físico ou simplesmente
-                    adotar hábitos mais saudáveis, a FITLIFE está pronta para fazer parte da sua jornada.
+                    adotar hábitos mais saudáveis, a FitLife está pronta para fazer parte da sua jornada.
 
                     FITLIFE: transforme seu corpo, fortaleça sua mente e viva sua melhor versão. 💪✨</p>
-                <a href="#" class="btn btn-primary">Saiba mais</a>
+                <a href="#" class="btn btn-primary p-4">Saiba mais</a>
             </div>
             <div class="card-footer text-body-secondary">
                 2 days ago
             </div>
         </div>
     </main>
+
+    <footer class="bg bg-dark text-white text-center p-4 mt-5 ">Fitlife &copy;. Todos os direitos reservados. </footer>
 
 
 
